@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simi Gracia Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a529d2affe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Cyber Security and Data Analytics Enthusiasist</p>
+                <h1>Hi, I'm <span>Simi</span> Gracia</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------about------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Greetings! I'm thrilled to share my journey in the realms of cyber security and data analytics. With a fervent dedication to safeguarding digital ecosystems and extracting meaningful insights, I navigate the intricate landscapes of cyber threats and data complexities. My experience spans from fortifying networks against evolving cyber threats to harnessing the power of data to drive informed decision-making. Equipped with a blend of technical prowess and analytical acumen, I thrive on the challenges posed by our digital age. Let's collaborate to fortify defenses, uncover hidden patterns, and pave the way for a resilient and data-driven future.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technologies</span><br>AI,Cloud Computing,Internet of Things</li>
+                            <li><span>Web Development</span><br>HTML,CSS,Js,C#</li>
+                            <li><span>Languages</span><br>Python,Java,R,C/C++</li>
+                            <li><span>Cyber Security</span><br>Ethical Hacking,Networking,SIEM,Digital Forensics</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Student Result Management and Analysis System</li>
+                            <li><span>2024</span><br>IOT Voice Automation</li>
+                            <li><span>2024</span><br>LiveWires Website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2023</span><br>Bachelor of Computer Applications</li>
+                            <li><span>2023-2025</span><br>Master of Computer Applications</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------------------services------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I have designed 5 to 6 websites with good resposiveness. My designs tend to look neat and to the point.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <h2>Cyber Security</h2>
+                    <p>I can hack into a website or a network, I can find loopholes and secure systems. I have knowledge in Threat Intelligence and Digital Forensics.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Data Analytics</h2>
+                    <p>I have skills to work on Excel, and use Tableau and Power BI. I can easily analyze data sets and bring out inferences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        <!---------------------------------portfolio------------------------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work1.png">
+                        <div class="layer">
+                            <h3>Mark System</h3>
+                            <p>Allows staff and students to access records of student marks and marksheets.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work2.png">
+                        <div class="layer">
+                            <h3>Password cracking</h3>
+                            <p>Using python to crack passwords through network and in website. Done with terminal commands.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work3.png">
+                        <div class="layer">
+                            <h3>IoT Project</h3>
+                            <p>With the help of embedded C and Arduino board, made a voice automation system through alexa.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------contact------------------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-square-envelope"></i> simigracia@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> +91 8925789990</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/imisgsc"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="https://www.linkedin.com/in/simi-gracia-sunil-christopher-47362720a/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/SIMI GRACIA RESUME (2).pdf" download class="btn">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn submit-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; Simi Gracia. Made with <i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+</script>
+
+
+</body>
+</html>
