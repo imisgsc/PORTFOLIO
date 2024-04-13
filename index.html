@@ -14,18 +14,21 @@
             <nav>
                 <img src="images/logo.png" alt="logo">
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
 
                 </ul>
             </nav>
             <div class="header-text">
-                <p>Cyber Security and Data Analytics Enthusiasist</p>
                 <h1>Hi, I'm <span>Simi</span> Gracia</h1>
+                <br>
+                <p id="typing-text"></p> 
             </div>
+            
+            
         </div>
     </div>
     <!----------------------------------about------------------------------------>
@@ -36,8 +39,8 @@
                     <img src="images/user.png">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Greetings! I'm thrilled to share my journey in the realms of cyber security and data analytics. With a fervent dedication to safeguarding digital ecosystems and extracting meaningful insights, I navigate the intricate landscapes of cyber threats and data complexities. My experience spans from fortifying networks against evolving cyber threats to harnessing the power of data to drive informed decision-making. Equipped with a blend of technical prowess and analytical acumen, I thrive on the challenges posed by our digital age. Let's collaborate to fortify defenses, uncover hidden patterns, and pave the way for a resilient and data-driven future.</p>
+                    <h1 class="sub-title">About Me</h1> <br>
+                    <p>Greetings! I'm thrilled to share my journey in the realm of Front-End and Back-End Development. With a fervent dedication to building cool Web-based Applications, integration of Machine Learning and Artificial Intelligence and also the urge to safeguard these apps through stong security basics.</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
@@ -45,23 +48,28 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Technologies</span><br>AI,Cloud Computing,Internet of Things</li>
-                            <li><span>Web Development</span><br>HTML,CSS,Js,C#</li>
-                            <li><span>Languages</span><br>Python,Java,R,C/C++</li>
-                            <li><span>Cyber Security</span><br>Ethical Hacking,Networking,SIEM,Digital Forensics</li>
+                            <li><span>Languages</span><br>C/C++, Java, Python, R</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript, React</li>
+                            <li><span>Web Frameworks</span><br>Bootstrap, Flask, Django, ReactJS</li>
+                            <li><span>DataBase</span><br>SQL, Oracle, MySQL, NoSQL</li>
+                            <li><span>Technologies</span><br>Artificial Intelligence, Machine Learning, Internet of Things</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
                             <li><span>2023</span><br>Student Result Management and Analysis System</li>
                             <li><span>2024</span><br>IOT Voice Automation</li>
-                            <li><span>2024</span><br>LiveWires Website</li>
+                            <li><span>2024</span><br>HerbLensAI</li>
+                            <li><span>2024</span><br>Movie Recommendation System</li>
+                            <li><span>2024</span><br>E-Commerce Website</li>
+
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
                             <li><span>2020-2023</span><br>Bachelor of Computer Applications</li>
                             <li><span>2023-2025</span><br>Master of Computer Applications</li>
+                            <li><span>2024-2026</span><br>Master of Business Administration</li>
                         </ul>
                     </div>
                 </div>
@@ -76,21 +84,18 @@
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
+                    <h2>Front-End Development</h2>
                     <p>I have designed 5 to 6 websites with good resposiveness. My designs tend to look neat and to the point.</p>
-                    <a href="#">Learn more</a>
                 </div>
                 <div>
-                    <i class="fa-solid fa-lock"></i>
-                    <h2>Cyber Security</h2>
-                    <p>I can hack into a website or a network, I can find loopholes and secure systems. I have knowledge in Threat Intelligence and Digital Forensics.</p>
-                    <a href="#">Learn more</a>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Back-End Development</h2>
+                    <p>I can easily work on several databases such as NoSQL, MySQL, Oracle. With knowledge to manipulate data as per request.</p>
                 </div>
                 <div>
                     <i class="fa-solid fa-chart-simple"></i>
-                    <h2>Data Analytics</h2>
-                    <p>I have skills to work on Excel, and use Tableau and Power BI. I can easily analyze data sets and bring out inferences.</p>
-                    <a href="#">Learn more</a>
+                    <h2>Full-Stack Development</h2>
+                    <p>I can easily connect both UI/UX to the databases with no conflicts and problems that may arise.</p>
                 </div>
             </div>
 
@@ -104,25 +109,43 @@
                     <div class="work">
                         <img src="images/work1.png">
                         <div class="layer">
-                            <h3>Mark System</h3>
-                            <p>Allows staff and students to access records of student marks and marksheets.</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <h3>Student Result Management and Analysis System</h3>
+                            <p>Allows staff and students to access records of student marks and marksheets for easy data management.</p>
                         </div>
                     </div>
                     <div class="work">
                         <img src="images/work2.png">
                         <div class="layer">
-                            <h3>Password cracking</h3>
-                            <p>Using python to crack passwords through network and in website. Done with terminal commands.</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <h3>IOT Voice Automation</h3>
+                            <p>Using Embedded C to code and use Arduino cloud to make a bulb turn on without using the switch but instaed though voice commands and also with the help of Alexa.</p>
                         </div>
                     </div>
                     <div class="work">
                         <img src="images/work3.png">
                         <div class="layer">
-                            <h3>IoT Project</h3>
-                            <p>With the help of embedded C and Arduino board, made a voice automation system through alexa.</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <h3>HerbLensAI</h3>
+                            <p>Made a web application that serves three purposes. One is to detect diseases from sesnors on body and provide food based on it. Next identifies a herb though image classifier. And lastly, a chatbot which gives food recipes based on disease mentioned. And all this is purely based on herbs and ayurveda.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work1.png">
+                        <div class="layer">
+                            <h3>Movie Recommendation System</h3>
+                            <p>A movie recommendation system is a filtration program that uses algorithms to predict a user's preference for a movie. These systems analyze data such as users' ratings, reviews, and viewing histories to make personalized recommendations.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work2.png">
+                        <div class="layer">
+                            <h3>E-commerce website</h3>
+                            <p>An e-commerce website is one that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work3.png">
+                        <div class="layer">
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -160,24 +183,7 @@
 
 
 
-<script>
-
-    var tablinks = document.getElementsByClassName("tab-links")
-    var tabcontents = document.getElementsByClassName("tab-contents")
-
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-
-    }
-
-</script>
+<script src="script.js"></script>
 
 
 </body>
