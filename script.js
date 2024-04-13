@@ -1,19 +1,18 @@
 // Text to be typed
-var text = "Full-Stack Python Developer";
+var text = "A Full-Stack Python Developer";
 var index = 0;
-var speed = 100; // Adjust typing speed (milliseconds) - increased for slower typing
+var speed = 150; // Adjust typing speed (milliseconds)
 
 function typeWriter() {
     if (index < text.length) {
         document.getElementById("typing-text").innerHTML += text.charAt(index);
         index++;
-        setTimeout(typeWriter, speed);
     } else {
-        // After typing is complete, you may choose to start over or stop typing
-        // Here is where you may reset the index and clear the typed text
-        // index = 0;
-        // document.getElementById("typing-text").innerHTML = "";
+        // Reset index to 0 to start typing again
+        index = 0;
+        document.getElementById("typing-text").innerHTML = ""; // Clear the text to start over
     }
+    setTimeout(typeWriter, speed);
 }
 
 // Start the typing animation when the page loads
@@ -21,6 +20,7 @@ window.onload = function() {
     typeWriter();
 };
 
+//active links
 var tablinks = document.getElementsByClassName("tab-links")
     var tabcontents = document.getElementsByClassName("tab-contents")
 
