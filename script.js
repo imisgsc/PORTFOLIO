@@ -14,11 +14,11 @@ function typeWriter() {
     }
     setTimeout(typeWriter, speed);
 }
-
 // Start the typing animation when the page loads
 window.onload = function() {
     typeWriter();
 };
+
 
 //active links
 var tablinks = document.getElementsByClassName("tab-links")

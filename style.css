@@ -8,10 +8,11 @@
 body {
     background: #080808;
     color: #fff;
+    overflow-x: hidden;
 }
 
 #header {
-    background-image: url(images/bg.png);
+    background-color: black;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -27,10 +28,11 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    min-width: 1000px;
 }
 
 nav img {
-    max-width: 200px; /* Adjust the maximum width of the logo */
+    max-width: 300px; /* Adjust the maximum width of the logo */
     height: auto;
     padding: 10px; /* Add padding for spacing */
     margin-right: 20px; /* Add margin to push the logo to the far left */
@@ -76,6 +78,7 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff004f;
 }
+
 
 /*--------------------------------------about--------------------------------------*/
 #about{
@@ -370,3 +373,5 @@ form .submit-btn{
     color: #ff004f;
 }
 
+
+/*responsiveness*/
