@@ -1,19 +1,46 @@
-// Text to be typed
-var text = "A Full-Stack Python Developer";
+var texts = ["A Front-End Developer", "A Back-End Developer", "A Full-Stack Developer"];
+var textIndex = 0;
 var index = 0;
 var speed = 150; // Adjust typing speed (milliseconds)
+var isDeleting = false; // State variable to track the direction of typing
 
 function typeWriter() {
-    if (index < text.length) {
-        document.getElementById("typing-text").innerHTML += text.charAt(index);
-        index++;
+    var currentText = texts[textIndex];
+    
+    if (!isDeleting) {
+        // Typing forward
+        if (index < currentText.length) {
+            document.getElementById("typing-text").innerHTML += currentText.charAt(index);
+            index++;
+            setTimeout(typeWriter, speed);
+        } else {
+            // Finished typing forward, if it's text1, start deleting
+            if (textIndex === 0) {
+                isDeleting = true;
+                setTimeout(typeWriter, speed + 500); // Pause before deleting
+            } else {
+                // Move to the next text
+                textIndex = (textIndex + 1) % texts.length;
+                index = 0;
+                setTimeout(typeWriter, speed);
+            }
+        }
     } else {
-        // Reset index to 0 to start typing again
-        index = 0;
-        document.getElementById("typing-text").innerHTML = ""; // Clear the text to start over
+        // Deleting backward
+        if (index > 0) {
+            document.getElementById("typing-text").innerHTML = currentText.substring(0, index - 1);
+            index--;
+            setTimeout(typeWriter, speed / 2); // Faster speed for deleting
+        } else {
+            // Finished deleting, move to the next text
+            isDeleting = false;
+            textIndex = (textIndex + 1) % texts.length;
+            index = 0;
+            setTimeout(typeWriter, speed);
+        }
     }
-    setTimeout(typeWriter, speed);
 }
+
 // Start the typing animation when the page loads
 window.onload = function() {
     typeWriter();
