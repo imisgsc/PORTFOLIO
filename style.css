@@ -11,12 +11,16 @@ body {
     overflow-x: hidden;
 }
 
+
+
 #header {
     background-color: black;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
 .container {
@@ -24,18 +28,16 @@ body {
 }
 
 nav {
+    margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: wrap;
     min-width: 1000px;
 }
 
 nav img {
-    max-width: 300px; /* Adjust the maximum width of the logo */
-    height: auto;
-    padding: 10px; /* Add padding for spacing */
-    margin-right: 20px; /* Add margin to push the logo to the far left */
+    display: none;
 }
 
 nav ul li{
@@ -66,8 +68,10 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 20%;
+    position: relative;
+    margin-top: 10%;
     font-size: 30px;
+    z-index: 1;
 }
 
 .header-text h1{
