@@ -1,4 +1,4 @@
-var texts = ["A Front-End Developer", "A Back-End Developer", "A Full-Stack Developer"];
+var texts = ["A Web Designer", "A Front-End Developer", "A Back-End Developer", "A Full-Stack Developer", "A Mobile Application Developer"];
 var textIndex = 0;
 var index = 0;
 var speed = 150; // Adjust typing speed (milliseconds)
@@ -6,7 +6,7 @@ var isDeleting = false; // State variable to track the direction of typing
 
 function typeWriter() {
     var currentText = texts[textIndex];
-    
+
     if (!isDeleting) {
         // Typing forward
         if (index < currentText.length) {
@@ -14,16 +14,9 @@ function typeWriter() {
             index++;
             setTimeout(typeWriter, speed);
         } else {
-            // Finished typing forward, if it's text1, start deleting
-            if (textIndex === 0) {
-                isDeleting = true;
-                setTimeout(typeWriter, speed + 500); // Pause before deleting
-            } else {
-                // Move to the next text
-                textIndex = (textIndex + 1) % texts.length;
-                index = 0;
-                setTimeout(typeWriter, speed);
-            }
+            // Finished typing forward, start deleting
+            isDeleting = true;
+            setTimeout(typeWriter, speed + 500); // Pause before deleting
         }
     } else {
         // Deleting backward
@@ -36,7 +29,7 @@ function typeWriter() {
             isDeleting = false;
             textIndex = (textIndex + 1) % texts.length;
             index = 0;
-            setTimeout(typeWriter, speed);
+            setTimeout(typeWriter, speed + 500); // Pause before typing the next text
         }
     }
 }
@@ -45,6 +38,7 @@ function typeWriter() {
 window.onload = function() {
     typeWriter();
 };
+
 
 
 //active links
