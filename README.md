@@ -1,4 +1,3 @@
-Here's a README file based on the GitHub repository for the portfolio project:
 
 ```markdown
 # Portfolio
