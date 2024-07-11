@@ -9,6 +9,8 @@
 
   .hero {
     max-width: 200px;
+    border-radius: 100%;
+    border: 2px solid #0987f2;
   }
 
   span {
@@ -21,6 +23,7 @@
 
       img {
         width: 30px;
+        
       }
     }
   }
@@ -68,7 +71,7 @@
 }
 
 .description {
-  max-width: 24ch;
+  max-width: 50ch;
 }
 
 .info {
@@ -97,4 +100,10 @@
       width: 400px;
     }
   }
+}
+
+h2{
+
+  color: #0987f2;
+
 }

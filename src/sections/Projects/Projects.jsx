@@ -12,27 +12,93 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          link11="https://github.com/LiveWiresSRM2023/SRM_CURIOUS_BUG_REACT"
+          h3="SRM Curious Bees"
+          p="Social Media app"
         />
         <ProjectCard
           src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          link1="https://github.com/imisgsc/STUDENT_RESULT_MANAGEMENT_AND_ANALYSIS_SYSTEM"
+          h3="My Result"
+          p="Vidhya Sagar College "
         />
         <ProjectCard
           src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          link1="https://github.com/imisgsc/REACT-NEWSAPP"
+          h3="Daily Bites"
+          p="React News App"
         />
         <ProjectCard
           src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          link1="https://github.com/imisgsc/Payment-Gateway"
+          h3="PayFee"
+          p="Payment App"
+        />
+                <ProjectCard
+          src={viberr}
+          link11="https://github.com/LiveWiresSRM2023/SRM_CURIOUS_BUG_REACT"
+          h3="SRM Curious Bees"
+          p="Social Media app"
+        />
+        <ProjectCard
+          src={freshBurger}
+          link1="https://github.com/imisgsc/STUDENT_RESULT_MANAGEMENT_AND_ANALYSIS_SYSTEM"
+          h3="My Result"
+          p="Vidhya Sagar College "
+        />
+        <ProjectCard
+          src={hipsster}
+          link1="https://github.com/imisgsc/REACT-NEWSAPP"
+          h3="Daily Bites"
+          p="React News App"
+        />
+        <ProjectCard
+          src={fitLift}
+          link1="https://github.com/imisgsc/Payment-Gateway"
+          h3="PayFee"
+          p="Payment App"
+        />
+                <ProjectCard
+          src={viberr}
+          link11="https://github.com/LiveWiresSRM2023/SRM_CURIOUS_BUG_REACT"
+          h3="SRM Curious Bees"
+          p="Social Media app"
+        />
+        <ProjectCard
+          src={freshBurger}
+          link1="https://github.com/imisgsc/STUDENT_RESULT_MANAGEMENT_AND_ANALYSIS_SYSTEM"
+          h3="My Result"
+          p="Vidhya Sagar College "
+        />
+        <ProjectCard
+          src={hipsster}
+          link1="https://github.com/imisgsc/REACT-NEWSAPP"
+          h3="Daily Bites"
+          p="React News App"
+        />
+        <ProjectCard
+          src={fitLift}
+          link1="https://github.com/imisgsc/Payment-Gateway"
+          h3="PayFee"
+          p="Payment App"
+        />
+                <ProjectCard
+          src={viberr}
+          link11="https://github.com/LiveWiresSRM2023/SRM_CURIOUS_BUG_REACT"
+          h3="SRM Curious Bees"
+          p="Social Media app"
+        />
+        <ProjectCard
+          src={freshBurger}
+          link1="https://github.com/imisgsc/STUDENT_RESULT_MANAGEMENT_AND_ANALYSIS_SYSTEM"
+          h3="My Result"
+          p="Vidhya Sagar College "
+        />
+        <ProjectCard
+          src={hipsster}
+          link1="https://github.com/imisgsc/REACT-NEWSAPP"
+          h3="Daily Bites"
+          p="React News App"
         />
       </div>
     </section>
