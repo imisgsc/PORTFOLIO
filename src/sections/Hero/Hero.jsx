@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
+import REACT from '../../assets/REACT.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -25,7 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Simi Gracia"
         />
         <img
           className={styles.colorMode}
@@ -56,7 +56,7 @@ function Hero() {
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href={CV} download>
+        <a href={REACT} download>
           <button className="hover">Resume</button>
         </a>
       </div>
