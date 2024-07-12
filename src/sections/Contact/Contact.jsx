@@ -8,7 +8,7 @@ function Contact() {
       <div className={styles.cards}>
         <div className={styles.card}>
 
-          <p><a href="mailto:examplemail@gmail.com">Gmail</a></p>
+          <p><a href="mailto:simigracia@gmail.com">Gmail</a></p>
 
         </div>
         <div className={styles.card}>
