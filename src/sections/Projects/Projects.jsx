@@ -88,18 +88,7 @@ function Projects() {
           h3="SRM Curious Bees"
           p="Social Media app"
         />
-        <ProjectCard
-          src={freshBurger}
-          link1="https://github.com/imisgsc/STUDENT_RESULT_MANAGEMENT_AND_ANALYSIS_SYSTEM"
-          h3="My Result"
-          p="Vidhya Sagar College "
-        />
-        <ProjectCard
-          src={hipsster}
-          link1="https://github.com/imisgsc/REACT-NEWSAPP"
-          h3="Daily Bites"
-          p="React News App"
-        />
+        
       </div>
     </section>
   );
